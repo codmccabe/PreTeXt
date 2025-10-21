@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <targets>
-    <target name="html">
-      <format>html</format>
-      <source>source/main.ptx</source>
-      <publication>publication/publication.xml</publication>
+    <target name="html" format="html" source="source/main.ptx">
       <output-dir>build</output-dir>
+      <publication>publication/publication.xml</publication>
       <executables>
         <executable name="python" />
       </executables>
