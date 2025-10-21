@@ -5,7 +5,10 @@
       <format>html</format>
       <source>source/main.ptx</source>
       <publication>publication/publication.xml</publication>
-      <output-dir>../build/html</output-dir>
+      <output-dir>build</output-dir>
+      <executables>
+        <executable name="python" />
+      </executables>
     </target>
   </targets>
 </project>
