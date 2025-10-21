@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project ptx-version="2">
   <targets>
-    <target name="html" format="html">
+    <target name="html">
+      <format>html</format>
       <source>source/main.ptx</source>
-      <publication>publication/publication.xml</publication>
-      <output-dir>output</output-dir>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/html</output-dir>
     </target>
   </targets>
 </project>
