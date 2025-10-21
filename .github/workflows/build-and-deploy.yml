@@ -38,19 +38,21 @@ jobs:
 
       - name: Build PreTeXt projects
         run: |
-          mkdir -p build/html
+          mkdir -p output
           for course in Math1431 Math1432 Math2231 Math2232 Math2233; do
             if [ -d "$course" ]; then
               cd $course
-              pretext build html -o ../build/html/$course
+              pretext build html
               cd ..
+              mkdir -p output/$course
+              cp -r $course/build/* output/$course/
             fi
           done
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'build/html'
+          path: 'output'
 
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
