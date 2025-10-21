@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xml:id="math1431">
+  <docinfo>
+    <title>Math 1431</title>
+    <author>
+      <personname>Your Name</personname>
+    </author>
+  </docinfo>
+
+  <book>
+    <title>Math 1431: Calculus I</title>
+
+    <xi:include href="section1.ptx" />
+    <xi:include href="section2.ptx" />
+    <xi:include href="section3.ptx" />
+    <!-- Add more sections as needed -->
+
+  </book>
+</book>
