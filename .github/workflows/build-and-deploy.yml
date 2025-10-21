@@ -36,8 +36,16 @@ jobs:
           pip install --upgrade pip
           pip install pretext
 
-      - name: Build PreTeXt project
-        run: pretext build html
+      - name: Build PreTeXt projects
+        run: |
+          mkdir -p build/html
+          for course in Math1431 Math1432 Math2231 Math2232 Math2233; do
+            if [ -d "$course" ]; then
+              cd $course
+              pretext build html -o ../build/html/$course
+              cd ..
+            fi
+          done
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
