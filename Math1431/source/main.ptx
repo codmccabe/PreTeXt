@@ -11,8 +11,10 @@
 
     <title>Math 1431: Pre-Calculus I</title>
 
-    <xi:include href="section11.ptx" />
-    <!-- Add more sections as needed -->
+    <chapter xml:id="chap-1">
+      <title>Chapter 1</title>
+      <xi:include href="section11.ptx" />
+    </chapter>
 
   </book>
 
