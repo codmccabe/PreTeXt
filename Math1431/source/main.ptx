@@ -3,20 +3,13 @@
   <docinfo>
     <title>Math 1431</title>
     <author>
-      <personname>Your Name</personname>
+      <personname>Michael McCabe</personname>
     </author>
   </docinfo>
 
-  <title>Math 1431: Calculus I</title>
+  <title>Math 1431: Pre-Calculus I</title>
 
   <xi:include href="section11.ptx" />
-  <xi:include href="section12.ptx" />
-  <xi:include href="section13.ptx" />
-  <xi:include href="section14.ptx" />
-  <xi:include href="section15.ptx" />
-  <xi:include href="section16.ptx" />
-  <xi:include href="section17.ptx" />
-  <xi:include href="section18.ptx" />
   <!-- Add more sections as needed -->
 
 </book>
