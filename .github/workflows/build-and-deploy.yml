@@ -42,10 +42,10 @@ jobs:
           for course in Math1431 Math1432 Math2231 Math2232 Math2233; do
             if [ -d "$course" ]; then
               cd $course
-              pretext build html
+              pretext build web
               cd ..
               mkdir -p output/$course
-              cp -r $course/build/* output/$course/
+              cp -r $course/output/web/* output/$course/
             fi
           done
 
