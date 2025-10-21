@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book xml:id="math1431" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <docinfo>
-    <title>Math 1431</title>
-    <author>
-      <personname>Michael McCabe</personname>
-    </author>
-  </docinfo>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
 
-  <title>Math 1431: Pre-Calculus I</title>
+  <book xml:id="math1431">
+    <docinfo>
+      <title>Math 1431</title>
+      <author>
+        <personname>Michael McCabe</personname>
+      </author>
+    </docinfo>
 
-  <xi:include href="section11.ptx" />
-  <!-- Add more sections as needed -->
+    <title>Math 1431: Pre-Calculus I</title>
 
-</book>
+    <xi:include href="section11.ptx" />
+    <!-- Add more sections as needed -->
+
+  </book>
+
+</pretext>
