@@ -1,40 +1,40 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
-  "id": "preface",
-  "level": "1",
-  "url": "preface.html",
-  "type": "[preface]",
-  "number": "",
-  "title": "[preface]",
-  "body": " Welcome to Pre-Calculus I. This text covers fundamental concepts necessary for calculus.  "
-},
-{
   "id": "sec-section11",
   "level": "1",
   "url": "sec-section11.html",
   "type": "[section]",
   "number": "1.1",
   "title": "Linear Equations",
-  "body": " Linear Equations  Your content here...  You can use math:  "
+  "body": " Linear Equations   Solving Linear Equations  A linear equation is an equation where the variable appears only to the first power. The general form of a linear equation is , where and are constants and .    Solve the equation:    We solve this step by step:  Subtract 3 from both sides:  Divide both sides by 2:  Therefore, the solution is .     "
 },
 {
-  "id": "solutions",
+  "id": "ex-linear1",
+  "level": "2",
+  "url": "sec-section11.html#ex-linear1",
+  "type": "[example]",
+  "number": "1.1.1",
+  "title": "",
+  "body": "  Solve the equation:    We solve this step by step:  Subtract 3 from both sides:  Divide both sides by 2:  Therefore, the solution is .   "
+},
+{
+  "id": "math1431-3-1",
   "level": "1",
-  "url": "solutions.html",
+  "url": "math1431-3-1.html",
   "type": "[appendix]",
   "number": "A",
   "title": "Selected Solutions",
   "body": " Selected Solutions  "
 },
 {
-  "id": "references",
+  "id": "math1431-3-2",
   "level": "1",
-  "url": "references.html",
+  "url": "math1431-3-2.html",
   "type": "[references]",
   "number": "",
   "title": "References",
-  "body": " References     "
+  "body": " References  PreCalculus by Michael McCabe  "
 }
 ]
 
