@@ -6,8 +6,8 @@ var ptx_lunr_docs = [
   "url": "sec-section11.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Limits",
-  "body": " Limits  Your content here...  You can use math:  "
+  "title": "Linear Equations",
+  "body": " Linear Equations  Your content here...  You can use math:  "
 }
 ]
 
