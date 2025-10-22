@@ -1,21 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
 
-  <book xml:id="math1431">
+<pretext xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude">
     <docinfo>
-      <title>Math 1431</title>
-      <author>
-        <personname>Michael McCabe</personname>
-      </author>
+        <macros>
+            <!-- Add any LaTeX macros here -->
+        </macros>
+        <latex-image-preamble>
+            \usepackage{amsmath}
+            \usepackage{amssymb}
+            \usepackage{amsthm}
+        </latex-image-preamble>
     </docinfo>
+    
+    <book xml:id="math1431">
 
-    <title>Math 1431: Pre-Calculus I</title>
+        <title>Math 1431: Pre-Calculus I</title>
 
-    <chapter xml:id="chap-1">
-      <title>Chapter 1</title>
-      <xi:include href="section11.ptx" />
-    </chapter>
+        <frontmatter xml:id="frontmatter">
+            <titlepage>
+                <titlepage-items>
+                    <author>
+                        <personname>Michael McCabe</personname>
+                        <department>Mathematics Department</department>
+                        <institution>College of DuPage</institution>
+                    </author>
+                </titlepage-items>
+            </titlepage>
 
-  </book>
+            <preface xml:id="preface">
+                <p>Welcome to Pre-Calculus I. This text covers fundamental concepts necessary for calculus.</p>
+            </preface>
+        </frontmatter>
 
+        <chapter xml:id="chap-1">
+            <title>Chapter 1</title>
+            <introduction>
+                <p>In this chapter, we will explore the fundamental concepts that form the foundation of pre-calculus.</p>
+            </introduction>
+
+            <xi:include href="section11.ptx" />
+        </chapter>
+
+        <backmatter xml:id="backmatter">
+            <solutions divisional="statement" xml:id="solutions">
+                <title>Selected Solutions</title>
+            </solutions>
+            <references xml:id="references">
+                <title>References</title>
+                <biblio type="raw" xml:id="ref-1">
+                    <!-- Add your references here -->
+                </biblio>
+            </references>
+        </backmatter>
+    </book>
 </pretext>

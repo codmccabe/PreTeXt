@@ -2,5 +2,7 @@
 <project ptx-version="2">
   <targets>
     <target name="web" format="html" />
+    <target name="print" format="pdf" />
+    <target name="ebook" format="epub" />
   </targets>
 </project>
