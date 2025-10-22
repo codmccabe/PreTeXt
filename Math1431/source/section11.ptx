@@ -2,7 +2,24 @@
 <section xml:id="sec-section11">
   <title>Linear Equations</title>
   
-  <p>Your content here...</p>
-  
-  <p>You can use math: <m>f(x) = x^2</m></p>
+  <subsection xml:id="subsec-solving-linear">
+    <title>Solving Linear Equations</title>
+    
+    <p>A linear equation is an equation where the variable appears only to the first power. The general form of a linear equation is <m>ax + b = 0</m>, where <m>a</m> and <m>b</m> are constants and <m>a \neq 0</m>.</p>
+    
+    <example xml:id="ex-linear1">
+      <statement>
+        <p>Solve the equation: <m>2x + 3 = 7</m></p>
+      </statement>
+      <solution>
+        <p>We solve this step by step:
+          <ul>
+            <li><p>Subtract 3 from both sides: <m>2x = 4</m></p></li>
+            <li><p>Divide both sides by 2: <m>x = 2</m></p></li>
+          </ul>
+          Therefore, the solution is <m>x = 2</m>.
+        </p>
+      </solution>
+    </example>
+  </subsection>
 </section>
