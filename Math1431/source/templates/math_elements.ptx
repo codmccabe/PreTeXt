@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="math-elements-template">
+  <title>Mathematical Elements Template</title>
+
+  <!-- Definition -->
+  <definition xml:id="def-REPLACE_ME">
+    <statement>
+      <p>Define the concept here.</p>
+    </statement>
+  </definition>
+
+  <!-- Theorem -->
+  <theorem xml:id="thm-REPLACE_ME">
+    <statement>
+      <p>State the theorem here.</p>
+    </statement>
+    <proof>
+      <p>Proof steps here.</p>
+    </proof>
+  </theorem>
+
+  <!-- Example with Multiple Parts -->
+  <example xml:id="ex-REPLACE_ME">
+    <statement>
+      <p>Consider the following:</p>
+      <p><ul>
+        <li><p>Part 1: <m>...</m></p></li>
+        <li><p>Part 2: <m>...</m></p></li>
+      </ul></p>
+    </statement>
+    <solution>
+      <p>Let's solve each part:</p>
+      <p><ul>
+        <li>
+          <p>Solution to part 1:
+            <md>
+              <mrow>equation 1 \amp = result1</mrow>
+              <mrow>equation 2 \amp = result2</mrow>
+            </md>
+          </p>
+        </li>
+        <li><p>Solution to part 2...</p></li>
+      </ul></p>
+    </solution>
+  </example>
+
+  <!-- Common Math Environments -->
+  <paragraphs>
+    <title>Common Math Examples</title>
+    
+    <p>
+      <!-- Inline math -->
+      This is inline math: <m>f(x) = x^2</m>
+    </p>
+    
+    <p>
+      <!-- Display math -->
+      <me>y = mx + b</me>
+    </p>
+    
+    <p>
+      <!-- Aligned equations -->
+      <md>
+        <mrow>2x + 3 \amp = 8</mrow>
+        <mrow>2x \amp = 5</mrow>
+        <mrow>x \amp = \frac{5}{2}</mrow>
+      </md>
+    </p>
+  </paragraphs>
+
+  <!-- Figures and Images -->
+  <figure xml:id="fig-REPLACE_ME">
+    <caption>Figure caption here</caption>
+    <image xml:id="img-REPLACE_ME">
+      <shortdescription>Brief description</shortdescription>
+      <latex-image>
+        \begin{tikzpicture}
+        % TikZ code here
+        \end{tikzpicture}
+      </latex-image>
+    </image>
+  </figure>
+</section>

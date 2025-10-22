@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-REPLACE_ME">
+  <title>Section Title</title>
+  
+  <introduction>
+    <p>Introduction paragraph here.</p>
+  </introduction>
+
+  <subsection xml:id="subsec-REPLACE_ME">
+    <title>Subsection Title</title>
+    
+    <p>Main content here.</p>
+
+    <example xml:id="ex-REPLACE_ME">
+      <statement>
+        <p>State the problem here.</p>
+      </statement>
+      <solution>
+        <p>Solution steps:
+          <ul>
+            <li><p>Step 1: <m>...</m></p></li>
+            <li><p>Step 2: <m>...</m></p></li>
+          </ul>
+        </p>
+      </solution>
+    </example>
+
+    <exercise>
+      <statement>
+        <p>Exercise question here.</p>
+      </statement>
+      <answer>
+        <p>Brief answer here.</p>
+      </answer>
+      <solution>
+        <p>Detailed solution here.</p>
+      </solution>
+    </exercise>
+  </subsection>
+</section>
